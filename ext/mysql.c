@@ -2,8 +2,8 @@
  *	$Id: mysql.c 244 2009-02-01 08:43:39Z tommy $
  */
 #define ulong unsigned long
-
 #include <ruby.h>
+#include <ruby/encoding.h>
 #ifndef RSTRING_PTR
 #define RSTRING_PTR(str) RSTRING(str)->ptr
 #endif
